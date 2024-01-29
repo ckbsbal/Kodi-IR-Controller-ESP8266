@@ -3,14 +3,14 @@ Convert an IR remote into a smart Kodi controller with ESP8266. Control channels
 
 ## Overview
 
-This project utilizes the ESP8266 microcontroller and Arduino to bridge the gap between an IR remote and the Kodi media center. By capturing IR signals and communicating with Kodi over WiFi, you can control channels in a way that combines the simplicity of an old-school remote with the advanced features of Kodi.
+This project centers around using the ESP8266 microcontroller and Arduino to convert an IR remote into a smart Kodi controller. It is specifically tailored for seamlessly opening PVR channels by entering channel numbers using an inexpensive IR remote. This setup combines the simplicity of an old-school remote with the advanced features of Kodi.
 
 ## Features
 
 - **IR Signal Processing:** Decode IR signals from a cheap IR remote.
 - **WiFi Connectivity:** Establish a connection with your local WiFi network for communication with Kodi.
 - **Kodi API Integration:** Send commands to Kodi using HTTP requests based on decoded IR signals.
-- **Channel Control:** Seamlessly navigate through Kodi channels using your IR remote.
+- **Channel Control:** Seamlessly open PVR channels by entering channel numbers on your IR remote.
 
 ## Getting Started
 
@@ -19,6 +19,14 @@ This project utilizes the ESP8266 microcontroller and Arduino to bridge the gap 
 - [IRremoteESP8266 Library](https://github.com/crankyoldgit/IRremoteESP8266)
 - [ESP8266HTTPClient Library](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266HTTPClient)
 - [WiFi Library](https://github.com/esp8266/Arduino/tree/master/libraries/ESP8266WiFi)
+
+### ESP8266 NodeMCU with IR Receiver Connection
+
+| ESP8266 NodeMCU | IR Receiver   |
+|------------------|---------------|
+| D5               | Signal        |
+| GND              | GND           |
+| 3V               | VCC           |
 
 ### Installation
 
@@ -42,7 +50,7 @@ This project utilizes the ESP8266 microcontroller and Arduino to bridge the gap 
 
 2. Point your IR remote towards the IR receiver and press the channel numbers.
 
-3. Enjoy controlling Kodi using the old-school IR remote!
+3. Enjoy effortlessly opening PVR channels on Kodi using the old-school IR remote!
 
 ## Kodi API Commands
 
