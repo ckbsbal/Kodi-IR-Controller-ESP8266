@@ -7,7 +7,10 @@ This project centers around using the ESP8266 microcontroller and Arduino to con
 
 ## Demo
 
-Watch the project in action: [![Project Demo Video](https://img.youtube.com/vi/5jyfP5IJLSQ/0.jpg)](https://youtube.com/watch?v=5jyfP5IJLSQ&si=xKSJFhQx0Yml8SYH)
+Watch the project in action:
+
+https://github.com/ckbsbal/Kodi-IR-Controller-ESP8266/assets/58983655/a9947ed5-8f86-4b87-ac23-b7aafdc5e223
+
 
 ## Features
 
