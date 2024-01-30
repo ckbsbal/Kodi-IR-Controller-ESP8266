@@ -33,7 +33,7 @@ Watch the project in action: [![Project Demo Video](https://img.youtube.com/vi/5
 | GND              | GND           |
 | 3V               | VCC           |
 
-![photo](https://i.ibb.co/1fZJTbX/f051dde4-521a-4f98-aaba-4afba607ee12.jpg){:width="400px"}
+![photo](https://i.ibb.co/1fZJTbX/f051dde4-521a-4f98-aaba-4afba607ee12.jpg)
 
 ### Installation
 
