@@ -66,6 +66,7 @@ Watch the project in action: [![Project Demo Video](https://img.youtube.com/vi/5
     curl -X POST -H "Content-Type: application/json" -H "Accept: application/json" -H "Authorization: Basic $(echo -n 'kodi:kodi' | base64)" -d '{"jsonrpc": "2.0", "method": "PVR.GetChannels", "params": {"channelgroupid": 1}, "id": 1}' http://192.168.1.20:8080/jsonrpc
     ```
 
-- Open a specific channel (replace `1045` with the desired channel ID):
-    ```bash
-    curl -X POST -H "Content-Type: application/json" -H "Accept:
+## Contributing
+
+Contributions are welcome! Feel free to open issues, submit pull requests, or provide suggestions to enhance this project.
+
