@@ -4,7 +4,9 @@ Convert an IR remote into a smart Kodi controller with ESP8266. Control channels
 ## Overview
 
 This project centers around using the ESP8266 microcontroller and Arduino to convert an IR remote into a smart Kodi controller. It is specifically tailored for seamlessly opening PVR channels by entering channel numbers using an inexpensive IR remote. This setup combines the simplicity of an old-school remote with the advanced features of Kodi.
+## Demo
 
+Watch the project in action: [![Project Demo Video](https://img.youtube.com/vi/5jyfP5IJLSQ/0.jpg)](https://youtube.com/watch?v=5jyfP5IJLSQ&si=xKSJFhQx0Yml8SYH)
 ## Features
 
 - **IR Signal Processing:** Decode IR signals from a cheap IR remote.
